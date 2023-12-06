@@ -17,13 +17,15 @@ public class Main {
        int multip = context.procesar(5,4);
 	   context = new OperacionAritmetica( new Division() );
        int divis = context.procesar(5,0);
+       conext = new OperacionAritmetica(new Residuo() );
+       int residu = conext.procesar(11,3);
        
        
        System.out.println("Suma: " + suma );
        System.out.println("Resta: " + resta );
        System.out.println("Multiplicación: " + multip );
-	   System.out.println("División: " + divis );
-   
+	    System.out.println("División: " + divis );
+       System.out.println("Residuo: " + residu );
        
 	}
 
