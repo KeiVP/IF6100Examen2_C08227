@@ -1,0 +1,163 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import Operaciones.Division;
+import Operaciones.Multiplicacion;
+import Operaciones.Resta;
+import Operaciones.Sumar;
+
+class Test {
+
+	
+	@org.junit.jupiter.api.Test
+	void test_Resta1() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
+		 assertEquals(0, context.procesar(0, 0));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Resta2() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
+		 assertEquals(-16, context.procesar(4, 20));
+		fail("Not yet implemented");
+	}
+
+	@org.junit.jupiter.api.Test
+	void test_Resta3() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
+		 assertEquals(-1, context.procesar(-2, -3));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Resta4() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
+		 assertEquals(2, context.procesar(2, 0));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Resta5() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
+		 assertEquals(-2, context.procesar(1000000, 999999));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Suma1() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Sumar() );
+		 assertEquals(25, context.procesar(15, 10));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Suma2() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Sumar() );
+		 assertEquals(-1, context.procesar(-15, -10));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Suma3() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Sumar() );
+		 assertEquals(199999998, context.procesar(999999,999999));
+		fail("Not yet implemented");
+	}
+	@org.junit.jupiter.api.Test
+	void test_Suma4() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Sumar() );
+		 assertEquals(7, context.procesar(7, 0));
+		fail("Not yet implemented");
+	}
+	@org.junit.jupiter.api.Test
+	void test_Suma5() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Sumar() );
+		 assertEquals(200000, context.procesar(100000, 100000));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Multiplicacion1() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Multiplicacion() );
+		 assertEquals(21, context.procesar(7, 3));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Multiplicaion2() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Multiplicacion() );
+		 assertEquals(-1, context.procesar(-7, -10));
+		fail("Not yet implemented");
+	}
+	
+	
+	@org.junit.jupiter.api.Test
+	void test_Multiplicacion4() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Multiplicacion() );
+		 assertEquals(8, context.procesar(8, 1));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Multiplicacion5() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Multiplicacion() );
+		 assertEquals(1000000, context.procesar(100000, 10));
+		fail("Not yet implemented");
+	}
+
+        @org.junit.jupiter.api.Test
+	void test_Multiplicacion6() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Multiplicacion() );
+		 assertEquals(2000000, context.procesar(1000000, 2));
+		fail("Not yet implemented");
+	}
+ 	@org.junit.jupiter.api.Test
+	void test_Multiplicacion7() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Multiplicacion() );
+		 assertEquals(-1, context.procesar(-3, 2));
+		fail("Not yet implemented");
+	}
+
+	@org.junit.jupiter.api.Test
+	void test_Division1() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Division() );
+		 assertEquals(5, context.procesar(10, 2));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Division2() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Division() );
+		 assertEquals(-1, context.procesar(-10, -2));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Division3() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Division() );
+		 assertEquals(-3, context.procesar(8, 0));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Division4() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Division() );
+		 assertEquals(7, context.procesar(7, 1));
+		fail("Not yet implemented");
+	}
+	
+	@org.junit.jupiter.api.Test
+	void test_Division5() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Division() );
+		 assertEquals(5000000, context.procesar(1000000, 2));
+		fail("Not yet implemented");
+	}
+
+        @org.junit.jupiter.api.Test
+	void test_Division6() {
+		 OperacionAritmetica context = new OperacionAritmetica( new Division() );
+		 assertEquals(-3, context.procesar(0, 0));
+		fail("Not yet implemented");
+	}
+}
+
