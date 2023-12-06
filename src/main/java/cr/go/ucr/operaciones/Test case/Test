@@ -7,7 +7,6 @@ import Operaciones.Sumar;
 
 class Test {
 
-	
 	@org.junit.jupiter.api.Test
 	void test_Resta1() {
 		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
