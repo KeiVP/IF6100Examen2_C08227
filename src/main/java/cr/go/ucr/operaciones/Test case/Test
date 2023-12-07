@@ -38,7 +38,7 @@ class Test {
 	@org.junit.jupiter.api.Test
 	void test_Resta5() {
 		 OperacionAritmetica context = new OperacionAritmetica( new Resta() );
-		 assertEquals(-2, context.procesar(1000000, 999999));
+		 assertEquals(1, context.procesar(1000000, 999999));
 		fail("Not yet implemented");
 	}
 	
